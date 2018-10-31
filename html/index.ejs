@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>PC首页</title>
+    <link rel="stylesheet" type="text/css" href="<%= htmlWebpackPlugin.options.assetsPath %>static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="<%= htmlWebpackPlugin.options.assetsPath %>static/bootstrap/css/bootstrap.fix.css">
+    <link rel="stylesheet" type="text/css" href="<%= htmlWebpackPlugin.options.assetsPath %>static/fontawesome/font-awesome.css">
+    <script src="<%= htmlWebpackPlugin.options.assetsPath %>static/js/es6-promise.auto.js"></script>
+    <script src="<%= htmlWebpackPlugin.options.assetsPath %>static/js/jquery.js"></script>
+    <script src="<%= htmlWebpackPlugin.options.assetsPath %>static/layer/layer.js"></script>
+    <script src="<%= htmlWebpackPlugin.options.assetsPath %>static/bootstrap/js/bootstrap.js"></script>
+    <!--[if lte IE 9]>
+      <script src="<%= htmlWebpackPlugin.options.assetsPath %>static/js/jquery.crossdomain-transport.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]> 
+      <script src="<%= htmlWebpackPlugin.options.assetsPath %>static/js/oldIE.polyfill.js"></script>
+      <script>var noHotCreateRequire = true;</script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

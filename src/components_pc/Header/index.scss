@@ -1,0 +1,10 @@
+.header-index {
+  font-size: 0;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 183px;
+  &__item {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}

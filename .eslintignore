@@ -1,0 +1,5 @@
+build/*.js
+config/*.js
+avalon_directives/*.js
+avalon_extends/*.js
+mock/*.js
